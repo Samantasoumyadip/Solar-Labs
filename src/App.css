@@ -1,0 +1,38 @@
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 400;
+    color: black;
+    background: var(--clr-grey-10);
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.App {
+    align-items: center;
+    justify-content: flex-start;
+    width: 450px;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+
+
+.form-control {
+    margin-top: 10px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.form-control input {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+}
+
+.form-control span {
+    margin-right: 20px;
+}
