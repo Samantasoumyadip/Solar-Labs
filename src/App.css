@@ -11,12 +11,26 @@ p {
 }
 
 .App {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     width: 450px;
     height: 50vh;
     margin: 0 auto;
     padding: 1.5rem 2rem;
+}
+.review {
+    margin: 30px;
+    padding: 40px;
+    max-width: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    background: transparent linear-gradient(303deg,#FF6E0B, #FC384B);
+    width: fit-content;
+    height: fit-content;
+    transition: transform 1s;
 }
 
 

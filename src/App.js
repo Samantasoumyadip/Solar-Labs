@@ -67,7 +67,9 @@ function App() {
 
   return (
     <div className="App">
-      <article className='review'>
+
+
+      <div className='review'>
 
     <form>
 
@@ -98,7 +100,7 @@ function App() {
       )}
 
     </form>
-</article>
+</div>
     </div>
   );
 }
